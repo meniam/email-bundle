@@ -1,0 +1,6 @@
+parameters:
+    super_email.sender.class: Super\SuperEmailBundle\Message\Sender
+    super_email.config.class: Super\SuperEmailBundle\Message\Config
+    super_email.message.class: Super\SuperEmailBundle\Message\Message
+    super_email.locale_listener.class: Super\SuperEmailBundle\EventListener\EmailListener
+    swiftmailer.transport.smtp.class: Super\SuperEmailBundle\Swift\SmtpTransport

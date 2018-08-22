@@ -1,0 +1,24 @@
+{
+  "name": "meniam/email-bundle",
+  "type": "symfony-bundle",
+  "keywords": ["swiftmailer", "email", "symfony 4"],
+  "license": "MIT",
+  "description": "Simple email notifications bundle for Symfony 4.",
+  "homepage": "https://github.com/meniam/email-bundle",
+  "autoload": {
+    "psr-4": { "Super\\SuperEmailBundle\\": "" }
+  },
+  "require": {
+    "php": ">=7.0",
+    "symfony/framework-bundle": "~3.0 || ~4.0",
+    "symfony/templating": "~3.0 || ~4.0",
+    "symfony/twig-bundle": "~3.0 || ~4.0",
+    "symfony/translation": "~3.0 || ~4.0",
+    "symfony/swiftmailer-bundle": "^3.2",
+    "tijsverkoyen/css-to-inline-styles": "^2.2.0",
+    "ramsey/uuid": "~3.8"
+  },
+  "require-dev": {
+    "stof/doctrine-extensions-bundle": "^1.2"
+  }
+}
